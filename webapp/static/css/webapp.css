@@ -1,0 +1,15 @@
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../cert_bg.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    ccolor: white;
+    text-shadow: #999999 0.1em 0.1em 0.1em;
+
+}
+.jumbotron p {
+    font-weight: 500;
+    text-shadow: #999999 0.1em 0.1em 0.1em;
+
+}

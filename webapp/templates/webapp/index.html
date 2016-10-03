@@ -1,0 +1,63 @@
+{% include "base.html" %}
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">{{PROJECT_NAME}}</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <form class="navbar-form navbar-right" action="/login">
+          <div class="form-group">
+            <input type="text" placeholder="Email" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="password" placeholder="Password" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-success">Sign in</button>
+        </form>
+      </div><!--/.navbar-collapse -->
+    </div>
+  </nav>
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Greetings!</h1>
+      <p>Are you troubled by strange noises in the middle of the night?
+         Speficically, alerts from PagerDuty or worse, your CEO, calling about an expired certificate?
+         Want to make sure that doesn't happen?
+         Then we are the site for you.</p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Expiration</h2>
+        <p>At the simplest level, we'll remind you about when your certificates are going to expire.</p>
+        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <h2>Security</h2>
+        <p>We'll notify you about changes to your certificate, or if there are issues with your implementation.</p>
+        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+     </div>
+      <div class="col-md-4">
+        <h2>Multi-level Alerts</h2>
+        <p>We'll email you, PagerDuty your team, Slack your department, at varying severity levels, to make sure you're in the know.</p>
+        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      </div>
+    </div>
+
+
+
+  {% include "footer.html" %}

@@ -1,0 +1,14 @@
+Django
+gunicorn
+django-extensions
+python-memcached
+django-memcache-status
+PyCrypto
+django-ratelimit
+datadog
+django-admin-sortable
+sparkpost
+Werkzeug
+ipython
+unipath
+django-bootstrap3
